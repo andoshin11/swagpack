@@ -1,12 +1,17 @@
 {
-  "name": "swagger-watcher",
-  "version": "1.0.0",
-  "main": "index.js",
+  "name": "swagpack",
+  "version": "0.0.1",
+  "description": "A simple CLI to bundle your swagger files.",
   "author": "andoshin11 <shinglish11@gmail.com>",
   "license": "MIT",
+  "keywords": [
+    "swagger",
+    "bundler"
+  ],
   "scripts": {
     "build": "tsc",
-    "gen": "tsc && ./bin/swagpack.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "tsc"
   },
   "dependencies": {
     "chokidar": "^2.1.2",
