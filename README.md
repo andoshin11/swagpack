@@ -1,4 +1,4 @@
-# Swagpack
+# Swagpack [![npm version](https://badge.fury.io/js/swagpack.svg)](https://badge.fury.io/js/swagpack)
 A simple CLI to bundle your swagger files.
 
 # Install
@@ -32,8 +32,6 @@ Usage: swagpack [options] [command]
 Bundle multiple swagger files
 
 Options:
-  -w, --watch <dir>       watch your swagger directory's changes
-  -o, --output <path>     output file
   -V, --version           output the version number
   -h, --help              output usage information
 
