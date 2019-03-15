@@ -7,8 +7,8 @@ commander
   .version(pkg.version)
   .description("Bundle multiple swagger files")
   .command("build <file>")
-  .option("-w --watch <dir>", "Watch your swagger directory's changes")
-  .option("-o --output <path>", "Output directory")
+  .option("-w, --watch <dir>", "Watch your swagger directory's changes")
+  .option("-o, --output <path>", "Output file")
   .action((file: string, options: { watch?: string, output?: string }) => {
     try {
       if (!options.output) {
