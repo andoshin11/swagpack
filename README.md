@@ -1,10 +1,10 @@
 # Swagpack [![npm version](https://badge.fury.io/js/swagpack.svg)](https://badge.fury.io/js/swagpack)
-A simple CLI to bundle your swagger files.
+A simple CLI to merge multiple swagger files.
 
 # Install
 
 ```sh
-$ yarn add swagpack
+$ yarn add -D swagpack
 ```
 
 # How to use
@@ -27,16 +27,12 @@ $ swagpack build entry.yml -o output.yaml -w ./src
 # CLI Options
 
 ```
-Usage: swagpack [options] [command]
-
-Bundle multiple swagger files
+Usage: swagpack build [options] <file>
 
 Options:
-  -V, --version           output the version number
-  -h, --help              output usage information
-
-Commands:
-  build [options] <file>
+  -w, --watch <dir>    Watch your swagger directory's changes
+  -o, --output <path>  Output file
+  -h, --help           display help for command
 ```
 
 # License
