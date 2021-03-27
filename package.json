@@ -1,6 +1,6 @@
 {
   "name": "swagpack",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A simple CLI to bundle your swagger files.",
   "author": "andoshin11 <shinglish11@gmail.com>",
   "license": "MIT",
